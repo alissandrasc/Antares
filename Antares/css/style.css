@@ -1,0 +1,73 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+
+* {
+    background: #F3F3F3;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #A47ADB;   
+    padding: 30px;
+    box-shadow: 10px 5px 5px black;
+}
+
+h1 {  
+    background: #A47ADB;
+    padding-bottom: 20px;
+    color: #F2DCFF;
+}
+/*faltou um efeito nesse H1*/
+
+.textfield {
+    justify-content: center;
+    display: flex;
+    background: #A47ADB;  
+    margin: 10px;
+}
+
+.textfield > i {
+    background: #A47ADB;
+    color: #F2DCFF;
+    padding: 10px 10px 0 0;
+/*gostaria de aumentar essa imagem*/
+}
+
+.textfield > input {
+    background: #F9F1E0;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+/* Tive que repetir algumas propriedades varias vezes */
+
+.btn_login {
+    background: #F9F1E0;
+    font-weight: 700;
+    margin: 15px;
+    padding: 5px;
+    width: 40%;
+    border-radius: 7px;
+    cursor: pointer;}
+
+
+.btn_login:hover {
+    transition: background 1s;
+    background: #ddb2f5;
+    color: #A858DB;
+}
