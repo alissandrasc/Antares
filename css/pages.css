@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,700&family=Ubuntu:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ nav {
     height: 100vh;
     width: 260px;
     width: 50vw;
-    background: #DBD0C5; 
+    background: #A47ADB;
     position: fixed;
     top: 0;
     left: 0;
@@ -38,7 +39,7 @@ nav {
     color: #fff;
     font-weight: 700;
 }
-/* adicionar efeito e trocar cor da fonte */
+
 
 .nav-links {
     height: 100%;
@@ -56,7 +57,7 @@ li {
 }
 
 li:hover {
-    background: #F9F1E0;
+    background: #8a64bcb0
 }
 
 .icon-li {
@@ -82,16 +83,16 @@ li a {
 }
 
 li .text-list {
-    color: #fff;
-    font-weight: 400;
+    color: #F2DCFF;
 }
 
 li .sub-menu {
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
-    background: #DBD0C5;
-    /* display: none */
-
+    background: #8a64bcb0;
+    /* linda cor transparente... #8059b3 */
+    /*display: none;*/
+    /*descobrir como aparecer e estilizar o submenu*/
 }
 
 li .sub-menu a {
@@ -104,5 +105,24 @@ li .sub-menu a {
 
 li .sub-menu a:hover {
     opacity: 1;
-    color: #988470
+    color: #F9F1E0;
+}
+
+#conteudo {
+    background: #f3f3f3;
+    height: 100vh;
+    position: relative;
+    left: 200px;
+    width: calc(100% 200px);
+}
+
+.form-floating  label{
+    left: 8px;
+}
+
+#btn-salvar {
+    background: #A47ADB;
+    border: none;
+    height: 48px;
+    font-weight: 600;
 }
